@@ -7,7 +7,7 @@ interface Props {
   accountList: AccountVM[];
 }
 
-export const AccounListTableComponent: React.FC<Props> = (props) => {
+export const AccountListTableComponent: React.FC<Props> = (props) => {
   const { accountList } = props;
   return (
     <>
