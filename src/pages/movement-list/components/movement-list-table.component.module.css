@@ -9,7 +9,7 @@
 
 .header-table {
   display: grid;
-  grid-template-columns: 30% 12% repeat(2, 17%) 1fr;
+  grid-template-columns: repeat(2, 17%) 30% 12% 30%;
   gap: 1px;
 }
 

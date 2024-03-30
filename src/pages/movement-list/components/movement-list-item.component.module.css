@@ -1,6 +1,6 @@
 .row {
   display: grid;
-  grid-template-columns: 30% 12% repeat(2, 17%) 1fr;
+  grid-template-columns: repeat(2, 17%) 30% 12% 30%;
   gap: 1px;
 }
 
@@ -20,8 +20,17 @@
   color: var(--secondary_color);
 }
 
+.data-numbers{
+  text-align: center;
+  align-items: end;
+}
+
+.negative {
+  color: #C70000;
+}
+
 .align-right {
-  text-align: right;
+  text-align: end;
 }
 
 .bold {
