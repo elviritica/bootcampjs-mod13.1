@@ -8,3 +8,4 @@ export const getMovementList = (): Promise<MovementsAPI[]> =>
 
 export const getMovementListByAccountId = (accountId: string): Promise<MovementsAPI[]> =>
   Axios.get<MovementsAPI[]>(`${urlMovements}?accountId=${accountId}`).then(({ data }) => data); 
+

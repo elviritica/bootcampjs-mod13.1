@@ -5,7 +5,7 @@ export interface MovementVM {
     description: string;
     amount: number;
     balance: number;
-    accountId: number;
+    accountId: string;
 }
 
 /*

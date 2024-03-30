@@ -9,5 +9,5 @@ export const mapMovementListFromApiToVm = (movementList : apiModel.MovementsAPI[
         description: movement.description,
         amount: movement.amount,
         balance: movement.balance,
-        accountId: movement.accountId
+        accountId: (movement.accountId).toString()
     }));
